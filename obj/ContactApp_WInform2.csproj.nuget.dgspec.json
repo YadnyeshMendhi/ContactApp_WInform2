@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\yadny\\SOURCE\\repos\\ContactApp_WInform2\\ContactApp_WInform2\\ContactApp_WInform2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yadny\\SOURCE\\repos\\ContactApp_WInform2\\ContactApp_WInform2\\ContactApp_WInform2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yadny\\SOURCE\\repos\\ContactApp_WInform2\\ContactApp_WInform2\\ContactApp_WInform2.csproj",
+        "projectName": "ContactApp_WInform2",
+        "projectPath": "C:\\Users\\yadny\\SOURCE\\repos\\ContactApp_WInform2\\ContactApp_WInform2\\ContactApp_WInform2.csproj",
+        "packagesPath": "C:\\Users\\yadny\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yadny\\SOURCE\\repos\\ContactApp_WInform2\\ContactApp_WInform2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yadny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
